@@ -1,0 +1,25 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <style>
+        body {
+            background-image: url("{% static 'Diabetes_Prediction/Images/diabetes_home_page.jpg' %}");
+        }
+    </style>
+</head>
+<body>
+    <div align = 'canter'>
+        <h1>
+    Welcome to the home page
+        </h1>
+    <form action = "predict">
+        <input type ="submit" value = "lets get started">
+    </form>
+</div>
+</body>
+</html>
